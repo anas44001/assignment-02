@@ -1,0 +1,46 @@
+/* nav er kaj */
+nav{
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+.naving{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+.an{
+    color: #252432;
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 135px;
+    height: 82px;
+}
+/* banner section */
+.bann{
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boro{
+    width: 570px;
+    height: 355px;
+}
+.fresh-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* flower card */
