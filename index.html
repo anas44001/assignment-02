@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-02</title>
-    <link rel="stylesheet" href="flowers.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="flowers.css">
 </head>
 <body>
     <!-- nav er kaj -->
@@ -17,9 +23,15 @@
                     </div>
                     <div class="upor">
                         <ul class="naving">
-                            <li class="an"><a href="">Home</a></li>
-                            <li class="an"><a href="">Shop</a></li>
-                            <li class="an"><a href="">About us</a></li>
+                           <div class="shoja">
+                             <li ><a class="an" href="">Home</a></li>
+                            <li ><a class="an" href="">Shop</a></li>
+                            <li ><a class="an" href="">About us</a></li>
+                           </div>
+                           
+                             <li><img src="assets/cart.png" alt=""></li>
+                            <li><p>cart($56)</p></li>
+                           </div>
                         </ul>
                     </div>
                 </div>
@@ -31,7 +43,7 @@
         <main class="bann">
             <section class="banner">
                 <div class="fresh">
-                    <h1>ALWAYS FRESH <br>FLOWERS</h1>
+                    <p class="serif">ALWAYS <span class="orange">FRESH <br>FLOWERS</span> </p>
                     <p class="fresh-description">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </p>
                 </div>
                 <div class="fhul">
@@ -45,13 +57,13 @@
      <header class="flower-card">
         <main class="flower">
             <section class="our-products">
-                <h3 class="our">Our Plants</h3>
+                <h3 class="our"> <span class="orange">Our</span> Plants</h3>
                 <p class="our-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </section>
                 <section class="sell">
                 <div class="card-container">
                     <div class="card">
-                        <img src="assets/sample-flower-image.png" alt="">
+                        <img class="sample" src="assets/sample-flower-image.png" alt="">
                        <div class="p">
                          <p class="about-price">Lily Blossom</p>
                         <p class="price">20 USD</p>
@@ -180,7 +192,7 @@
      
         <section class="details">
             <div class="flow">
-                <h1>Latest  Deals</h1>
+                <h1 class="serif"> <span class="orange">Latest </span> Deals</h1>
                 <p class="deals">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
         </section>
@@ -206,7 +218,50 @@
                 </div>
             </div>
         </section>
+    <!-- join colourful brunch -->
+
+    <header class="join-colorful">
+        <section class="form">
+            <p class="joining">Join the colorful Bunch</p>
+           <div class="input">
+             <p class="in"><input class="inp" type="email" placeholder="write email" name="" id="">
+            <button class="subscripe">Subscripe</button></p>
+           </div>
+        </section>
+    </header>
     
-    
+    <!-- footer section -->
+     <footer class="foot">
+       <div class="sesh">
+         <div class="ending">
+            <p class="end">
+                <img src="assets/logo.png" alt="" class="last"><br>
+                Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop. 
+            </p>
+        </div>
+        <div class="more">
+            <ul class="to-know">
+                 <li class="feature"><a href="" class="close">Home</a></li>
+            <li class="feature"><a href="" class="close">About Us</a></li>
+            <li class="feature"><a href="" class="close">Blog</a></li>
+            <li class="feature"><a href="" class="close">FAQ</a></li>
+            <li class="feature"><a href="" class="close">Contact Us</a></li>
+            <li class="feature"><a href="" class="close">Features</a></li>
+            <li class="feature"><a href="" class="close">Pricing</a></li>
+            <li class="feature"><a href="" class="close">Privacy Policy</a></li>
+            <li class="feature"><a href="" class="close">Terms of Service</a></li>
+            <li class="feature"><a href="" class="close">Help Center</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <ul>
+                <li class="social"><img src="assets/icon-linkedin.png" alt=""></li>
+                <li class="social"><img src="assets/icon-twitter.png" alt=""></li>
+                <li class="social"><img src="assets/icon-facebook.png" alt=""></li>
+                <li class="social"><img src="assets/icon-youtube.png" alt=""></li>
+            </ul>
+        </div>
+       </div>
+     </footer>
 </body>
 </html>

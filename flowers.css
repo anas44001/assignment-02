@@ -1,4 +1,31 @@
-/* nav er kaj */
+body{
+    max-width: 1440px;
+}
+
+.serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.orange{
+    color: #E95A08;
+}
+
+
+/* * nav er kaj */ 
 nav{
     margin-left: 150px;
     margin-top: 30px;
@@ -8,6 +35,7 @@ nav{
     display: flex;
     list-style: none;
     gap: 20px;
+    align-items: center;
 }
 a{
     text-decoration: none;
@@ -24,6 +52,12 @@ a{
     width: 135px;
     height: 82px;
 }
+
+
+
+
+
+
 /* banner section */
 .bann{
     margin-top: 120px;
@@ -41,6 +75,9 @@ a{
 }
 .fresh-description{
     color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 /* flower card */
@@ -49,7 +86,13 @@ a{
     margin-right: 150px;
     margin-top: 120px;
 }
-
+.our-description{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.1rem;
+}
 
 .card{
     align-items: center;
@@ -58,7 +101,18 @@ a{
      width: 270px;
     height: 480px;
 }
-
+.about-price{
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+.price{
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+}
    
 .pri{
     width: 270px;
@@ -72,6 +126,16 @@ a{
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 
+}
+.our{
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-weight: bold;
+    font-size: 50px;
 }
 .our-products{
     text-align: center;
@@ -102,9 +166,19 @@ a{
 
 .des{
     margin-top: 10px;
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
 }
 .plant-lover{
     margin-left: 20px;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 35px;
 }
 /* .part1{
     width: 500px;
@@ -125,6 +199,12 @@ a{
     height: 206px;
     border-radius: 10px;
     
+}
+.deals{
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
 }
 .context1{
     text-align: center;
@@ -153,10 +233,22 @@ a{
 }
 .percent{
     color: white;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 .t25{
     font-size: 40px;
     color: white;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 .anchor{
     color: white;
@@ -173,3 +265,215 @@ a{
 }
 
 /* join the colourful brunch */
+.input{
+    display: flex;
+    justify-content: center;
+    
+}
+.join-colorful{
+     background-image: url(../assignment-02/assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.form{
+   
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.joining{
+    margin-bottom: 20px;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: white;
+}
+
+.inp{
+    height: 50px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    
+}
+.subscripe{
+    width: 150px;
+    height: 56px;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    margin-left: 0px;
+}
+/* footer section */
+.end{ font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+   
+}
+.to-know{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+.close{
+    color:#6B7280;
+}
+.icons ul li{
+    list-style: none;
+}
+.icons ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.sesh{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* responsive design */
+@media (max-width: 768px) {
+    body{
+        margin: 10px 10px;
+    }
+    .start{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px 0px;
+        align-items: center;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .sorol{
+        display: flex;
+        justify-content: space-between;
+    }
+    .an{
+        display: none;
+    }
+    /* banner */
+    
+      .banner{margin: 0px;
+
+      }
+      .banner{
+        display: flex;
+        flex-direction: column;
+      }
+     .fhul{display: flex;
+        order: 1;
+        width: 100%;
+    } 
+    .fresh{
+        order: 2;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .our-description{
+        margin: 0px;
+        max-width: 100%;
+    }
+    .sample{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-container{
+        margin: 0px;
+        padding: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.1rem;
+    }
+    .pri{
+        width: 100%;
+        padding: 0px;
+    }
+    .trusted-badge{
+        display: none;
+    }
+    .section-plants-class{
+        margin: 0px;
+    }
+    .plants-store{
+        display: flex;
+        flex-direction: column;
+    }
+    .flower-store-img{
+        width: 100%;
+        height: 648px;
+        margin-top: 40px;
+    }
+    .flower-store-ul li{
+        max-width: 100%;
+    }
+    .latest-deals{
+        margin-left: 0px ;
+    }
+    .latest-deals-para{
+        max-width: 100%;
+    }
+    .latest-deals-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .latest-deals-column2{
+        width: 365px;
+        height: 200px; 
+        max-width: 100%;
+    }
+    .zabo{
+        font-size: 1rem;
+    }
+    .email-section{
+        margin: 0px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .email-heading{
+        max-width: 100%;
+        font-size: 1.1rem;
+    }
+    .email-form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .email-form input{
+        height: 30px;
+        width: 218px;
+    }
+    .email-form button{
+        box-sizing: border-box;
+        padding: 17px 10px 17px 10px;
+        height: 20px;
+        width: 103px ;
+        font-size: 10px ;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+Abrar
